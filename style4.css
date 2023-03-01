@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    border: 1px solid black;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    max-height: 60px;
+    padding: 5px 20px;
+    max-width: 100%;
+}
+
+.navigation-links {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.brand-logo {
+    width: 50px;
+}
+
+.list-container {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.list-items {
+    padding: 0 10px;
+}
+
+.list-items a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #d3aa43;
+}
+
+.list-items a:hover {
+    color: black;
+}
+
+main {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: auto;
+    width: 100%;
+}
+
+.form {
+    border: 1px solid grey;
+    border-radius: 12px;
+    width: 500px;
+    padding: 10px 30px;
+    padding-bottom: 60px;
+    margin-top: 50px;
+}
+
+.form-img{
+    display: block;
+    margin: 20px auto;
+    width: 100px;
+}
+
+.sign-up-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    color: #d3aa43;
+    margin-bottom: 10px;
+}
+
+.sign-up-text-alt {
+    color: rgb(208, 204, 204);
+    font-size: 14px;
+    text-align: center;
+    /* letter-spacing: 1px; */
+    line-height: 25px;
+}
+
+label.normal {
+    display: block;
+    margin-top: 20px;
+    color: rgb(208, 204, 204);
+    font-size: 14px;
+}
+
+label.label-check {
+    color: rgb(208, 204, 204);
+    font-size: 14px;
+}
+
+.check {
+    margin-top: 20px;
+}
+
+label:first-of-type {
+    margin-top: 40px;
+}
+
+.control {
+    border-radius: 5px 0 0 5px;
+    border: 0;
+    padding: 8px;
+    width: 100%;
+}
+
+.control.focus {
+    outline: none;
+}
+
+.control-block {
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+.suffix {
+    align-items: center;
+    background-color: rgb(238, 237, 237);
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    padding: 0 10px;
+    display: flex;
+}
+
+.btn-submit{
+    background-color: #d3aa43;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: none;
+    color: #ffffff;
+    display: block;
+    margin-top: 20px;
+    padding: 15px 40px;
+    width: 100%;
+}

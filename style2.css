@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    box-shadow: 2px 2px 20px grey;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.brand-logo {
+    display: flex;
+    padding: 5px;
+}
+
+.brand-img {
+    width: 70px;
+}
+
+.brand-logo h3 {
+    font-size: 24px;
+    color: white;
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.grey {
+    color: grey;
+}
+
+.links-ul {
+    display: flex;
+    margin: 5px;
+    padding: 20px;
+    list-style-type: none;
+    margin-top: 1px;
+}
+
+.links-li {
+    padding: 5px 15px;
+    /* border: 1px solid red; */
+}
+
+.links-li a {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-weight: 700px;
+}
+
+
+
+.links-li:last-of-type {
+    margin-right: 30px;
+}
+
+.bady {
+    background-color: black;
+}
+
+/* .power {
+    border: 1px solid grey;
+    margin-top: 10px;
+    height: 500px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: ;
+    align-items: center;
+} */
+
+/* .original {
+    border: 1px solid blue;
+    height: 200px;
+    width: 200px;
+} */
+
+.power {
+    box-shadow: 1px 1px 2px grey;
+    border-radius: 5px;
+    /* border-radius: 105px; */
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 0 40px 40px;
+    box-sizing: border-box;
+}
+
+.form-hd {
+    display: flex;
+    justify-items: center;
+}
+
+.form-img {
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.form-txt{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 7px;
+    color: grey;
+}
+
+label {
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #6f6f6f;
+}
+
+.control {
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    padding: 5px 8px;
+    width: 100%;
+}
+
+.control::placeholder {
+    color: #dadada;
+}
+
+.inner {
+    width: 350px;
+    margin: 0 auto;
+}
+
+.btn {
+    color: aliceblue;
+    background-color: black;
+    border-radius: 3px;
+    border: none;
+    box-shadow: none;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.verdana {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #6f6f6f;
+    font-weight: 200;
+    font-size: 14px;
+}
